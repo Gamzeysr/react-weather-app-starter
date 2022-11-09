@@ -9,11 +9,12 @@ const Main = () => {
   const [weather, setWeather] = useState([]);
   const [error, setError] = useState("");
 
-  let apiKey = "a118c3dd09cb98f52ab2cbf3bb695ffd" //process.env.REACT_APP_API_KEY;
+  let apiKey = process.env.REACT_APP_API_KEY;
   let units = "metric";
   let lang = "tr";
 
   const iconUrl = `https://openweathermap.org/img/wn/icon@2x.png`;
+
 
 
   const getWeather = async () => {
@@ -47,7 +48,6 @@ const Main = () => {
       setSearchText("")
     }
   }
-
 
 
 
