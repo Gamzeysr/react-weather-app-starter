@@ -1,3 +1,10 @@
+
+![Adsız tasarım (1)](https://user-images.githubusercontent.com/108168084/199492562-6bdef884-03e7-4f34-8124-9b834fcbfdc9.gif)
+
+
+## https://react-weather-app-starter-gamze.vercel.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
